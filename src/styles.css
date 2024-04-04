@@ -94,15 +94,16 @@ footer a {
 
 @media (max-width: 960px) {
   .container {
-    max-width: 80%;
-    margin: 10px;
+    max-width: 90%;
+    margin: 5px auto;
+    padding: 15px;
   }
 
   .title {
     font-size: 30px;
   }
   .city h2 {
-    font-size: 15px;
+    font-size: 20px;
     padding-top: 15px;
   }
 
@@ -116,5 +117,13 @@ footer a {
 
   .row {
     padding: 10px;
+  }
+
+  select {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 12px;
   }
 }
