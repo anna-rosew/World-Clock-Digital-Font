@@ -3,11 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Orbitron:wght@400..900&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap"
+    /></noscript>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Orbitron:wght@400..900&display=swap"
       rel="stylesheet"
     />
     <link
@@ -30,7 +41,7 @@
     <div class="container">
       <h1 class="title">WORLD CLOCK</h1>
 
-      <select name="cities" id="city-select">
+      <!-- <select name="cities" id="city-select">
         <option disabled selected>Explore other cities...</option>
         <option value="America/New_York">New York 🇺🇸</option>
         <option value="Europe/London">London 🇬🇧</option>
@@ -40,7 +51,7 @@
         <option value="Asia/Seoul">Seoul 🇰🇷</option>
         <option value="Asia/Hong_Kong">Hong Kong 🇭🇰</option>
         <option value="current">Current Location 📍</option>
-      </select>
+      </select> -->
 
       <div class="cities" id="cities">
         <div class="row city" id="new-york">
